@@ -1,0 +1,51 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-color: #F7F3E2;
+}
+.mail-reset-password{
+    width: 600px;
+    height: 100%;
+    margin: auto;
+}
+div .header img{
+    width: 250px;
+    
+}
+
+h1{
+    font-size: 1.25rem;
+    text-align: center;
+}
+p{
+    font-size: 1rem;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: #4B8375;
+    padding: 5%;
+    color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .nuevo-codigo{
+    font-size: 2rem;
+    color: #4B8375;
+    font-weight: 700;
+  }
+  @media screen and (max-width: 600px){
+    .mail-reset-password{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+    }
+    div .header img{
+        width: 60%;
+    }
+  }
